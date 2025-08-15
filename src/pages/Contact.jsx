@@ -9,7 +9,7 @@ const Contact = () => {
   const formRef = useRef(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [status, setStatus] = useState(null);
-  const apiUrl = import.meta.env.MAIL_SERVICE_URI
+  const apiUrl = import.meta.env.VITE_MAIL_API_URL
 
   const onSubmit = async (e) => {
     e.preventDefault();

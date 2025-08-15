@@ -38,7 +38,7 @@ npm install
 Create a new `.env` file in the root of your project:
 
 ```env
-MAIL_SERVICE_URI=your-mail-service-uri-here
+VITE_MAIL_API_URL=your-mail-service-uri-here
 ```
 - Replace `your-mail-service-uri-here` with the URL of your Mail-Service API. If you don’t have a Mail-Service set up, you can visit my [Mail-Service](https://github.com/itsanaskhanz/Mail-Service) repo to use it.
 
