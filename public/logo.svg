@@ -1,0 +1,13 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="60" cy="60" r="58" stroke="#FFFFFF" stroke-width="4" fill="none"/>
+
+  <!-- Letter A -->
+  <path d="M40 80 L55 40 L70 80 Z" fill="#FFFFFF"/>
+
+  <!-- Letter K -->
+  <path d="M75 40 L75 80 L95 60 Z" fill="#FFFFFF"/>
+
+  <!-- Optional subtle inner shadow effect -->
+  <circle cx="60" cy="60" r="58" stroke="rgba(255,255,255,0.2)" stroke-width="2" fill="none"/>
+</svg>
