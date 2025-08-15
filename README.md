@@ -1,12 +1,57 @@
-# React + Vite
+# AnasWeb
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium personal website, thoughtfully designed with precision and attention to detail. Featuring a clean, modern layout, seamless navigation, and a smooth user experience across all devices. Elegant, responsive, and optimized for performance.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Technologies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Lucide-React
+- Framer-Motion
+- Vite
+- Tailwind CSS
+- (Optional) Mail Service 
+
+---
+
+## Setup & Installation
+
+1. **Clone the repository:**
+
+```bash
+git clone <repository_url>
+cd <repository_folder>
+```
+
+2. **Install dependencies:**
+
+```bash
+npm install
+```
+
+---
+
+## Environment Variables
+
+Create a new `.env` file in the root of your project:
+
+```env
+MAIL_SERVICE_URI=your-mail-service-uri-here
+```
+- Replace `your-mail-service-uri-here` with the URL of your Mail-Service API. If you don’t have a Mail-Service set up, you can visit my [Mail-Service](https://github.com/itsanaskhanz/Mail-Service) repo to use it.
+
+
+---
+
+## Running the Project
+
+Start the development server:
+
+```bash
+npm run dev
+```
+- The website will typically run at: [http://localhost:5173](http://localhost:5173)  
+- Open it in your browser to view your personal website.
+
